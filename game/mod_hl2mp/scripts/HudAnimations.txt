@@ -98,7 +98,7 @@ event SuitAuxPowerNotMax
 {
 	// show suit power
 	Animate HudSuitPower BgColor		"BgColor"		Linear 0.0 0.4
-	Animate HudSuitPower AuxPowerColor	"255 220 0 220"		Linear 0.0 0.4
+	Animate HudSuitPower AuxPowerColor	"0 200 255 220"		Linear 0.0 0.4
 }
 
 event SuitAuxPowerDecreasedBelow25
@@ -110,7 +110,7 @@ event SuitAuxPowerDecreasedBelow25
 event SuitAuxPowerIncreasedAbove25
 {
 	// make colr bright
-	Animate HudSuitPower AuxPowerColor	"255 220 0 220"		Linear 0.0 0.4
+	Animate HudSuitPower AuxPowerColor	"0 200 255 220"		Linear 0.0 0.4
 }
 
 event SuitAuxPowerNoItemsActive
@@ -145,8 +145,8 @@ event SuitAuxPowerThreeItemsActive
 
 event SuitFlashlightOn
 {
-	Animate HudFlashlight TextColor		"255 220 0 255"	Linear 0.0 0.1
-	Animate HudFlashlight TextColor		"255 220 0 160"	Deaccel 0.1 0.75
+	Animate HudFlashlight TextColor		"0 200 255 255"	Linear 0.0 0.1
+	Animate HudFlashlight TextColor		"0 200 255 160"	Deaccel 0.1 0.75
 	Animate HudFlashlight BgColor		"BgColor"	Linear 0.0 0.75
 }
 
@@ -540,10 +540,10 @@ event WeaponDoesNotUseSecondaryAmmo
 
 event CraneMagnetFlash
 {
-	Animate HudCraneMagnet TextColor	"255 220 0 255"	Linear 0.0 0.1
-	Animate HudCraneMagnet TextColor	"255 220 0 160"	Deaccel 0.1 0.3
-	Animate HudCraneMagnet TextColor	"255 170 0 220"	Deaccel 0.4 0.3
-	Animate HudCraneMagnet TextColor	"255 220 0 255"	Linear 0.8 0.2
+	Animate HudCraneMagnet TextColor	"0 200 255 255"	Linear 0.0 0.1
+	Animate HudCraneMagnet TextColor	"0 200 255 160"	Deaccel 0.1 0.3
+	Animate HudCraneMagnet TextColor	"0 200 255 220"	Deaccel 0.4 0.3
+	Animate HudCraneMagnet TextColor	"0 200 255 255"	Linear 0.8 0.2
 }
 
 event HintMessageShow
@@ -553,9 +553,9 @@ event HintMessageShow
 
 	// flash text
 	Animate HudHintDisplay FgColor	"FgColor" 	Linear 0.0 0.01
-	Animate HudHintDisplay FgColor	"255 220 0 255" Linear 0.5 0.2
+	Animate HudHintDisplay FgColor	"0 200 255 255" Linear 0.5 0.2
 	Animate HudHintDisplay FgColor	"FgColor" 	Linear 0.7 0.2
-	Animate HudHintDisplay FgColor	"255 220 0 255" Linear 1.5 0.2
+	Animate HudHintDisplay FgColor	"0 200 255 255" Linear 1.5 0.2
 	Animate HudHintDisplay FgColor	"FgColor" 	Linear 1.7 0.2
 
 	// hide the panel after a while	
@@ -573,8 +573,8 @@ event SquadMemberAdded
 	StopEvent	SquadMemberLeft		0.0
 
 	// add in the squad member, brighter then normal color
-	Animate HudSquadStatus LastMemberColor	"255 220 0 255" Linear 0.0 0.3
-	Animate HudSquadStatus LastMemberColor	"255 220 0 160" Linear 0.3 0.3
+	Animate HudSquadStatus LastMemberColor	"0 200 255 255" Linear 0.0 0.3
+	Animate HudSquadStatus LastMemberColor	"0 200 255 160" Linear 0.3 0.3
 }
 
 event SquadMemberLeft
@@ -583,7 +583,7 @@ event SquadMemberLeft
 	StopEvent	SquadMemberAdded	0.0
 
 	// fade out the icon
-	Animate HudSquadStatus LastMemberColor	"255 220 0 0"	Linear 0.0 0.5
+	Animate HudSquadStatus LastMemberColor	"0 200 255 0"	Linear 0.0 0.5
 }
 
 event SquadMemberDied
@@ -599,14 +599,14 @@ event SquadMemberDied
 event SquadMembersFollowing
 {
 	StopEvent	SquadMembersStationed	0.0
-	Animate		HudSquadStatus	SquadTextColor	"255 220 0 255"		Linear 0.0 0.2
-	Animate		HudSquadStatus	SquadTextColor	"255 220 0 160"		Linear 0.2 0.4
+	Animate		HudSquadStatus	SquadTextColor	"0 200 255 255"		Linear 0.0 0.2
+	Animate		HudSquadStatus	SquadTextColor	"0 200 255 160"		Linear 0.2 0.4
 }
 
 event SquadMembersStationed
 {
 	StopEvent	SquadMembersFollowing	0.0
-	Animate		HudSquadStatus	SquadTextColor	"255 220 0 160"			Linear 0.5 0.5
+	Animate		HudSquadStatus	SquadTextColor	"0 200 255 160"			Linear 0.5 0.5
 }
 
 event PoisonDamageTaken

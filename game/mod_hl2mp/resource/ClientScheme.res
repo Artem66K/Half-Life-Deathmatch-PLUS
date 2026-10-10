@@ -15,8 +15,8 @@ Scheme
 	Colors
 	{
 		// base colors
-		"Orange"			"255 176 0 255"
-		"OrangeDim"			"255 176 0 120"
+		"Orange"			"0 200 255 255"
+		"OrangeDim"			"0 200 255 120"
 		"LightOrange"		"188 112 0 128"
 		
 		"Red"				"192 28 0 140"
@@ -36,30 +36,30 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		"FgColor"			"255 220 0 100"
+		"FgColor"			"0 200 255 100"
 		"BgColor"			"0 0 0 76"
 
-		"Panel.FgColor"			"255 220 0 100"
+		"Panel.FgColor"			"0 200 255 100"
 		"Panel.BgColor"			"0 0 0 76"
 		
-		"BrightFg"		"255 220 0 255"
+		"BrightFg"		"0 200 255 255"
 
 		"DamagedBg"			"180 0 0 200"
 		"DamagedFg"			"180 0 0 230"
 		"BrightDamagedFg"		"255 0 0 255"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"255 220 0 255"
-		"SelectionTextFg"		"255 220 0 255"
+		"SelectionNumberFg"		"0 200 255 255"
+		"SelectionTextFg"		"0 200 255 255"
 		"SelectionEmptyBoxBg" 	"0 0 0 80"
 		"SelectionBoxBg" 		"0 0 0 80"
 		"SelectionSelectedBoxBg" "0 0 0 80"
 		
-		"ZoomReticleColor"	"255 220 0 255"
+		"ZoomReticleColor"	"0 200 255 255"
 
 		// HL1-style HUD colors
-		"Yellowish"			"255 160 0 255"
-		"Normal"			"255 208 64 255"
+		"Yellowish"			"0 200 255 255"
+		"Normal"			"0 200 255 255"
 		"Caution"			"255 48 0 255"
 
 		// Top-left corner of the "Half-Life 2" on the main screen
@@ -237,8 +237,8 @@ Scheme
 		"MenuBoxBg"		"0 0 0 100"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"255 220 0 200"
-		"SelectionTextFg"		"255 220 0 200"
+		"SelectionNumberFg"		"0 200 255 200"
+		"SelectionTextFg"		"0 200 255 200"
 		"SelectionEmptyBoxBg" 	"0 0 0 80"
 		"SelectionBoxBg" 		"0 0 0 80"
 		"SelectionSelectedBoxBg" "0 0 0 190"

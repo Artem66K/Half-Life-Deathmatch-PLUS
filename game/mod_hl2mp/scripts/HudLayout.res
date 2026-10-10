@@ -146,7 +146,7 @@
 		"tall"	"26"
 		
 		"AuxPowerLowColor" "255 0 0 220"
-		"AuxPowerHighColor" "255 220 0 220"
+		"AuxPowerHighColor" "0 200 255 220"
 		"AuxPowerDisabledAlpha" "70"
 
 		"BarInsetX" "8"
@@ -177,7 +177,7 @@
 		
 		"text_xpos" "8"
 		"text_ypos" "6"
-		"TextColor"	"255 170 0 220"
+		"TextColor"	"0 200 255 220"
 
 		"PaintBackgroundType"	"2"
 	}
@@ -397,7 +397,7 @@
 		"text_ypos"	"8"
 		"text_xgap"	"8"
 		"text_ygap"	"8"
-		"TextColor"	"255 170 0 220"
+		"TextColor"	"0 200 255 220"
 
 		"PaintBackgroundType"	"2"
 	}
@@ -413,7 +413,7 @@
 		"tall"	"46"
 		"text_xpos"	"8"
 		"text_ypos"	"34"
-		"SquadIconColor"	"255 220 0 160"
+		"SquadIconColor"	"0 200 255 160"
 		"IconInsetX"	"8"
 		"IconInsetY"	"0"
 		"IconGap"		"24"
@@ -433,7 +433,7 @@
 		"text_xpos"	"8"
 		"text_ypos"	"8"
 		"text_ygap" "14"
-		"TextColor"	"255 170 0 220"
+		"TextColor"	"0 200 255 220"
 		"PaintBackgroundType"	"2"
 	}
 	HudCredits
